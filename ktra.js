@@ -19,5 +19,3 @@ let name3 = students.filter(s => s.gender === "Nam");
 let tong = name3.reduce((sum, s) => {
   return sum + s.score;
 }, 0);
-let averageScore = tong / name3.length;
-console.log("Điểm trung bình Nam:", averageScore.toFixed(1));
